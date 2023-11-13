@@ -1,52 +1,43 @@
 // Navbar.js
 import React from 'react';
 import './styles/Navbar.css';
-import homeIcon from './icons/home_icon.png';
+import homeIcon from './icons/home_icon2.png';
 
 const Navbar = () => {
   return (
+
     <div className="sidebar">
 
-        <a href="/" className="nav-item">
-            <img src={homeIcon} alt="Home_Photo" />
-            Home
-        </a>
-
-        <a href="/" className="nav-item">
-            <img src="./icons/home_icon.png" alt="Home_Photo" />
-            Messages
-        </a>
-
-        <a href="/" className="nav-item">
-            <img src="./icons/home_icon.png" alt="Home_Photo" />
-            Profile
-        </a>
-
-        <a href="/" className="nav-item">
-            <img src="./icons/home_icon.png" alt="Home_Photo" />
-            Communities
-        </a>
-
-        <a href="/" className="nav-item">
-            <img src="./icons/home_icon.png" alt="Home_Photo" />
-            Saved
-        </a>
-
-        <a href="/" className="nav-item">
-            <img src="./icons/home_icon.png" alt="Home_Photo" />
-            More
-        </a>
+        <a href="/" className="nav-link">Home</a>
+        <a href="/messages" className="nav-link">Messages</a>
+        <a href="/profile" className="nav-link">Profile</a>
+        <a href="/communities" className="nav-link">Communities</a>
+        <a href="/saved" className="nav-link">Saved</a>
+        <a href="/more" className="nav-link">More</a>
 
 
         <button className="post-btn">
             Post
         </button>
 
-        <div className="profile-section">
-           
-        </div>
+        <div class="profile-section">
+            <div class="profile-header">
 
+                <div class="profile-picture">
+
+                </div>
+
+                <div class="profile-info">
+                    <h2 class="user-name">Aaran</h2>
+                    <p class="user-handle">@AaranL</p>
+                </div>
+
+            </div>
+        </div>
     </div>
+    
+    
+
   );
 };
 
