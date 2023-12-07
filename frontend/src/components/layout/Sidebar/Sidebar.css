@@ -1,0 +1,70 @@
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: white; /* White background */
+    position: fixed; /* Fixed position to stay in place on scroll */
+    display: flex;
+    border: 1px solid #e1e8ed;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space between nav links and profile section */
+  }
+  
+    
+  .nav-link {
+    padding: 10px 15px; /* Padding for aesthetics */
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark text color */
+    display: block; /* Block display to take up full width of sidebar */
+      /* Add more styles for hover, focus, active states */
+    }
+    
+  .post-btn {
+    padding: 10px 20px;
+    background-color: #1da1f2; /* Twitter's brand color for the button */
+    color: #fff;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Cursor indicates button */
+    margin: 10px 15px; /* Margin for spacing */
+    /* Add more styles for hover, focus, active states */
+  }
+    
+  
+  /* profile navbar area at bottom */
+  .profile-section {
+    width: inherit;
+    padding: 10px;
+  }
+    
+    .profile-header {
+      display: flex;  
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    
+    .profile-picture {
+      width: 50px;
+      height: 50px;
+      background-color: #bbb;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .profile-info .user-name {
+      margin: 0;
+      font-weight: bold;
+    }
+    
+    .profile-info .user-handle {
+      margin: 0;
+      color: #657786;
+    }
+      /* profile navbar area at bottom */
+  
+  .nav-item img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
