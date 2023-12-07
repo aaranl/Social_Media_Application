@@ -1,7 +1,6 @@
 // Navbar.js
 import React from 'react';
-import './styles/Navbar.css';
-import homeIcon from './icons/home_icon2.png';
+import './Navbar.css';
 
 const Navbar = () => {
   return (

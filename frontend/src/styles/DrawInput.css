@@ -1,9 +1,0 @@
-.centerpiece {
-    width: 250px; /* Adjust width as needed */
-    height: 100vh; /* Full height of the viewport */
-    background-color: white; /* White background */
-    position: fixed; /* Fixed position to stay in place on scroll */
-    display: flex;
-    border: 1px solid #e1e8ed;
-    flex-direction: column; /* Stack items vertically */
-  }
